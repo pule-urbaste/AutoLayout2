@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ocj-UG-4gI">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Auto Layout-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFI-L0-mwN">
+                                <rect key="frame" x="16" y="518" width="342" height="60"/>
+                                <color key="backgroundColor" red="0.99953407049999998" green="0.91130587589942924" blue="0.056438554413322579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Xh1-vw-N5H"/>
+                                    <constraint firstAttribute="width" constant="342" id="gds-yK-Dcf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
+                                <color key="tintColor" red="0.46099674740000002" green="0.16975435990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button B">
+                                    <color key="titleColor" red="0.46099674740000002" green="0.16975435990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7R-OW-GhJ">
+                                <rect key="frame" x="16" y="64" width="100" height="70"/>
+                                <color key="backgroundColor" red="0.99953407049999998" green="0.99364639710000002" blue="0.48206520980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="G2g-0I-vyH"/>
+                                    <constraint firstAttribute="height" constant="70" id="tAa-t4-elZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
+                                <color key="tintColor" red="0.46099674740000002" green="0.16975435990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button One">
+                                    <color key="titleColor" red="0.46099674740000002" green="0.16975435990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAB-Mn-mHe">
+                                <rect key="frame" x="15" y="450" width="343" height="60"/>
+                                <color key="backgroundColor" red="0.99953407049999998" green="0.99364639711679792" blue="0.48206520975540212" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="BeM-bT-LaN"/>
+                                    <constraint firstAttribute="width" constant="343" id="v68-sa-Mbl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
+                                <color key="tintColor" red="0.46099674740000002" green="0.16975435990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button C">
+                                    <color key="titleColor" red="0.46099674740000002" green="0.16975435990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vR-KY-hsj">
+                                <rect key="frame" x="16" y="590" width="342" height="60"/>
+                                <color key="backgroundColor" red="0.99953407049999998" green="0.91102708960000001" blue="0.54521682869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="g6m-C9-EDh"/>
+                                    <constraint firstAttribute="width" constant="342" id="qX0-Mt-Bdm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
+                                <color key="tintColor" red="0.46099674740000002" green="0.16975435990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button A">
+                                    <color key="titleColor" red="0.46099674740000002" green="0.16975435990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQY-Re-Rdr">
+                                <rect key="frame" x="251" y="64" width="100" height="70"/>
+                                <color key="backgroundColor" red="0.99953407049999998" green="0.99364639710000002" blue="0.48206520980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="6sz-uT-fgg"/>
+                                    <constraint firstAttribute="height" constant="70" id="cfB-ZY-Bst"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
+                                <color key="tintColor" red="0.46099674740000002" green="0.16975435990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button One">
+                                    <color key="titleColor" red="0.46099674740000002" green="0.16975435990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BAB-Mn-mHe" secondAttribute="trailing" constant="17" id="0ht-Mg-51B"/>
+                            <constraint firstItem="i7R-OW-GhJ" firstAttribute="centerY" secondItem="HQY-Re-Rdr" secondAttribute="centerY" id="33L-w6-sOC"/>
+                            <constraint firstItem="BAB-Mn-mHe" firstAttribute="top" secondItem="i7R-OW-GhJ" secondAttribute="bottom" constant="316" id="4k6-5j-Whv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YFI-L0-mwN" secondAttribute="trailing" constant="17" id="5S7-2f-RhL"/>
+                            <constraint firstItem="5vR-KY-hsj" firstAttribute="width" secondItem="YFI-L0-mwN" secondAttribute="width" id="5oW-ii-40Y"/>
+                            <constraint firstItem="i7R-OW-GhJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="5qA-se-W3Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5vR-KY-hsj" secondAttribute="trailing" constant="17" id="9M9-dW-lMH"/>
+                            <constraint firstItem="BAB-Mn-mHe" firstAttribute="top" secondItem="HQY-Re-Rdr" secondAttribute="bottom" constant="316" id="CkR-YR-hgn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HQY-Re-Rdr" secondAttribute="trailing" constant="24" id="JDe-gP-bhY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5vR-KY-hsj" secondAttribute="bottom" constant="17" id="KXL-CY-y6V"/>
+                            <constraint firstItem="HQY-Re-Rdr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Lmg-bd-cDM"/>
+                            <constraint firstItem="i7R-OW-GhJ" firstAttribute="width" secondItem="HQY-Re-Rdr" secondAttribute="width" id="T9o-Uw-vG7"/>
+                            <constraint firstItem="YFI-L0-mwN" firstAttribute="height" secondItem="BAB-Mn-mHe" secondAttribute="height" id="U6u-qD-wmn"/>
+                            <constraint firstItem="YFI-L0-mwN" firstAttribute="top" secondItem="BAB-Mn-mHe" secondAttribute="bottom" constant="8" symbolic="YES" id="dFw-ZA-2IM"/>
+                            <constraint firstItem="i7R-OW-GhJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dfO-Mx-wPX"/>
+                            <constraint firstItem="5vR-KY-hsj" firstAttribute="height" secondItem="YFI-L0-mwN" secondAttribute="height" id="jpp-HW-CP7"/>
+                            <constraint firstItem="YFI-L0-mwN" firstAttribute="width" secondItem="BAB-Mn-mHe" secondAttribute="width" multiplier="0.997085" id="npr-NE-Lfs"/>
+                            <constraint firstItem="YFI-L0-mwN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ot0-76-pVi"/>
+                            <constraint firstItem="5vR-KY-hsj" firstAttribute="top" secondItem="YFI-L0-mwN" secondAttribute="bottom" constant="12" id="tKz-qW-Gw6"/>
+                            <constraint firstItem="BAB-Mn-mHe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="tW0-W3-ORA"/>
+                            <constraint firstItem="5vR-KY-hsj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uqn-U8-qHk"/>
+                            <constraint firstItem="i7R-OW-GhJ" firstAttribute="height" secondItem="HQY-Re-Rdr" secondAttribute="height" id="vrf-6R-UlN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Auto Layout" id="smd-B6-r0D"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967.20000000000005" y="71.514242878560722"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ewQ-ux-GIm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ocj-UG-4gI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6W9-WH-E0x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.6835329201" green="0.99953407049999998" blue="0.51521104689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.82988982229999997" green="0.99953407049999998" blue="0.70266720179999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.46099674740000002" green="0.16975435990000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="qt0-a3-NES"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9um-zx-UHs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73" y="72"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
